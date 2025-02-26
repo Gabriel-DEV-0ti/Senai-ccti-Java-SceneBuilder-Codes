@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ex_6_5.Controler" prefHeight="300.0" prefWidth="400.0">
+    <children>
+        <Label layoutX="140.0" layoutY="40.0" text="Nome:" />
+        <TextField fx:id="nomeInput" layoutX="130.0" layoutY="80.0" />
+        <Label layoutX="140.0" layoutY="120.0" text="Valor da Compra:" />
+        <TextField fx:id="valorCompraInput" layoutX="130.0" layoutY="160.0" />
+        <Button fx:id="verificarButton" layoutX="160.0" layoutY="200.0" text="Verificar" onAction="#verificarBrinde" />
+        <Label fx:id="resultadoLabel" layoutX="130.0" layoutY="240.0" />
+    </children>
+</AnchorPane>
